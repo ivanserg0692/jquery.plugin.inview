@@ -1,5 +1,8 @@
 # jquery.plugin.inview
 Плагин jquery, генерирует триггеры когда элемент становится виден в DOM Window, есть так же один метод для проверки был ли когда либо виден элемент в виев порте браузера, это удобно когда нужно проиграть один раз анимацию появления.
+
+Plugin Jquery generating the triggerers when element bacame vivible inside DOM. So there is method for checking if element was ever visible inside viewport of browser. This is good when need to play one time the animation of apearing the element.
+
 ### Методы:
 - $.fn.isinview - проверяет был ли виден элемент.
 ```	@return boolean видена ли какая либо часть элемента в виевпорте.```

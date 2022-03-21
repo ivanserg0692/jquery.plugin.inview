@@ -3,11 +3,11 @@
 
 Plugin Jquery generating the triggerers when element bacame vivible inside DOM. So there is method for checking if element was ever visible inside viewport of browser. This is good when need to play one time the animation of apearing the element.
 
-### Методы:
-- $.fn.isinview - проверяет был ли виден элемент.
+### Методы: /methods
+- $.fn.isinview - проверяет был ли виден элемент. / this check if element was ever visible
 ```	@return boolean видена ли какая либо часть элемента в виевпорте.```
-- $.fn.inview - устанавливает отслеживание триггеров для заданного элемента.
+- $.fn.inview - устанавливает отслеживание триггеров для заданного элемента. / this set a track the triggers for element
 
-### Триггеры
-* OneView срабатывает когда впервые отображается элемент
+### Триггеры /triggers 
+* OneView срабатывает когда впервые отображается элемент 
 * OneFullView срабатывает когда впервые отображается весь элемент во виевпорте
